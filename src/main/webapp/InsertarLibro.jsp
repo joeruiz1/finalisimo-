@@ -32,7 +32,7 @@
                 <div class="container">
                     <div class="dynamicContent">
                         <!--content-->
-                        <h1>Nuevo Libro</h1>
+                        <h1>Nueva venta</h1>
              <%
                         if (request.getAttribute("resultado") != null) {
                             Boolean resultado = (Boolean) request.getAttribute("resultado");
@@ -55,19 +55,13 @@
                 <div class="form_settings">
                     <p><span>Numero De Registro</span>
                         <input class="contact" type="text" name="id" value="" /></p>
-                    <p><span>Nombre Libro</span>
+                    <p><span>Marca</span>
                         <input class="contact" type="text" name="nombre" value="" /></p>
-                    <p><span>Nombre Autor</span>
+                    <p><span>Color</span>
                         <input class="contact" type="text" name="autor" value="" /></p>
-                    <p><span>Editorial</span>
+                    <p><span>precio</span>
                         <input class="contact" type="text" name="edi" value="" /></p>
-                    <p><span>Precio</span>
-                        <input class="contact" type="text" name="precio" value="" /></p>
-                    <p><span>Estado</span>
-                        <input class="contact" type="text" name="estado" value="" /></p>
-                    <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
-                </div>
-                
+                    
                 
                 
                                      
